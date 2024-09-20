@@ -13,7 +13,8 @@ Class Mahasiswa {
     }
     public function tampilkantugas2(){
         $sql = "SELECT * FROM tugas2";
-        $result = $this->conn->query($sql);            
+        $result = $this->conn->query($sql);    
+        return $result;
         }
     }
 
